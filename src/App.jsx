@@ -22,7 +22,6 @@ function App(){
       <Navbar />
       <Routes>
         <Route path="/" element={<Home />}/>
-      <Route path="/" element={<Home />}/>
       <Route path="/cart" element={<Cart />}/>
       <Route path="/menu" element={<Menu />} /> 
       <Route path="/checkout" element={
