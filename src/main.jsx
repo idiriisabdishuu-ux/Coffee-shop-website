@@ -12,7 +12,7 @@ import { AuthProvider } from './Context/AuthContext.jsx'
 createRoot(document.getElementById('root')).render(
     <AuthProvider>
     <CartProvider>
-    <BrowserRouter>
+    <BrowserRouter  basename='/coffee shop website'>
     <StrictMode>
         
     <App />
